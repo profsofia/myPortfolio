@@ -7,7 +7,11 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { PracticesComponent } from './components/practices/practices.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
+import {MatCardModule} from '@angular/material/card';
+import { MatDividerModule} from '@angular/material/divider';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+
+
 const routes: Routes = [
   { path: 'contact-me', component: ContactMeComponent },
   { path: 'practices', component: PracticesComponent },
@@ -28,7 +32,9 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes),
     BrowserAnimationsModule,
-    MatSliderModule
+    MatCardModule,
+    MatDividerModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
