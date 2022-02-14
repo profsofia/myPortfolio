@@ -1,0 +1,31 @@
+
+nav{
+    color: #fff;
+    background-color:#070f2c;
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    text-align: right;
+    border: 2px solid rgba(227, 233, 236, 0.87);
+}
+nav a{
+    margin-right: 35px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover{
+    color: rgb(77, 88, 95);
+}
+footer{
+    padding: 15px;
+    color: #fff;
+    background-color: #070f2c;
+    box-shadow: 0 0 10px rgba(26, 71, 114, 0.75);
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+footer span{
+    color: rgb(52, 141, 129);
+}
